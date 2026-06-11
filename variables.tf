@@ -106,7 +106,7 @@ variable "region" {
   default     = null
 }
 
-variable "S3_name" {
+variable "bucket" {
   description = "(Optional, Forces new resource) The name of the bucket. If omitted, Terraform will assign a random, unique name."
   type        = string
   default     = null
